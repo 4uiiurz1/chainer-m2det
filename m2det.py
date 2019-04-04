@@ -183,7 +183,7 @@ class VGG16MLFPN320(VGG16):
     grids = (40, 20, 10, 5, 3, 1)
 
     def __init__(self):
-        super(VGG16MLFPN300, self).__init__()
+        super(VGG16MLFPN320, self).__init__()
 
         with self.init_scope():
             self.mlfpn = MLFPN()
